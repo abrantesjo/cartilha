@@ -21,3 +21,21 @@ window.addEventListener('load', () => {
         loader.style.display = 'none';
     }, tempoMinimo);
 });
+
+
+var videoContainers = document.querySelectorAll('.video');
+
+    videoContainers.forEach(function(videoContainer) {
+        videoContainer.addEventListener('click', function() {
+            var iframe = this.querySelector('iframe');
+            var videoSrc = iframe.getAttribute('src');
+            
+            var modal = document.createElement('div');
+            modal.innerHTML = modalContent;
+            document.body.appendChild(modal);
+
+            modal.querySelector('.close').addEventListener('click', function() {
+                modal.remove();
+            });
+        });
+    });
