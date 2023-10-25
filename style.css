@@ -1,5 +1,5 @@
 body {
-    background-color: #3F78EA !important;
+    background-color: #B4CDED !important;
     font-family: 'Shippori Antique', sans-serif !important;
 
     display: flex;
@@ -11,19 +11,19 @@ body {
 }
 
 p {
-    color: #F4BBE7;
+    color: black;
     -webkit-text-stroke: 0.5px black;
 }
 
 .titulo {
     font-size: 60px;
-    color: #F4BBE7;
+    color: #1D2D3F;
     -webkit-text-stroke: 0.5px black;
 }
 
 .subtitulo {
     font-size: 30px;
-    color: #F4BBE7;
+    color: #1D2D3F;
     -webkit-text-stroke: 0.5px black;
 }
 
@@ -69,6 +69,7 @@ ul {
     width: 30px; 
     height: 30px; 
     margin-right: 10px; 
+    color: black;
 }
 
 .toggle-list {
@@ -87,7 +88,7 @@ ul {
 }
 
 .toggle-button {
-    background-color: #FFE59D;
+    background-color: #344966;
     color: black;
     border: none;
     padding: 5px 10px;
@@ -100,7 +101,7 @@ ul {
 }
 
 .toggle-button:hover {
-    background-color: #F4BBE7;
+    background-color: #0D1821;
 }
 
 
